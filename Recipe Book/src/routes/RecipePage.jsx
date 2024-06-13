@@ -1,9 +1,12 @@
 import React from 'react'
+import NavBar from '../components/NavBar' 
+import ListRecipes from '../components/ListRecipes'
 
 function RecipePage() {
   return (
     <div>
-      <h1>Las Recetas!!</h1>
+      <NavBar />
+      <ListRecipes />
     </div>
   )
 }
