@@ -35,6 +35,15 @@ function ListRecipes() {
         fetchPosts();
     }, [])
 
+
+    const renderStars = (difficulty) => {
+        const stars = [];
+        for (let i = 0; i < difficulty; i++) {
+          stars.push(<span key={i} className="fa fa-star checked"></span>);
+        }
+        return stars;
+      };
+
     return (
         <>
          {posts.map((post) => (
@@ -44,10 +53,6 @@ function ListRecipes() {
                     <img src={post.image} alt={post.name} />
                     <div className="container__text">
                         <h1>{post.name}</h1>
-                        <div className="container__text__star">
-                            <span className="fa fa-star checked"></span>
-                            <span className="fa fa-star checked"></span>
-                        </div>
                         <h2>Ingredienti : </h2>
                         <p>{post.ingredients.join(", ")}</p>
                         <div className="container__text__timing">
@@ -56,8 +61,11 @@ function ListRecipes() {
                                 <p>{post.instructions}</p>
                             </div>
                             <div className="container__text__timing_time">
+                                
                                 <h4>difficulty</h4>
-                                <p>{post.difficultyId}</p>
+                                {post.difficultyId ? renderStars(post.difficultyId) : <p>No difficulty specified</p>}
+                                
+                                
                             </div>
                         </div>
                     </div>
