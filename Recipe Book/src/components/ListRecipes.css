@@ -1,30 +1,28 @@
-.container {
-    display: flex;
-    height: 500px;
-    margin-top: 80px;
-    justify-content: center;
 
-}
 
 
 img{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     border-radius: 10px;
+    
     
 }
 
 .recipe{
     display: inline-flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    margin: 20px;
     padding: 20px;
-    background-color: #fff;
+    margin: 10px;
+    background-color: #d4c1c1;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 350px;
-    height: 300px;
+    transition: transform 0.2s;
+    width: 340px; /* Set a fixed width */
+    height: 300px; /* Set a fixed height */
+    
+
 }
 
 .container__text {
@@ -36,20 +34,6 @@ img{
         font-weight: 400;
        }
 
-.box-1 {
-    width: 800px;
-    height: 800px;
-    background-color: lightblue;
-    border-radius: 10px;
-}
-
-.box-2 {
-    width: 600px;
-    height: 800px;
-    background-color: aliceblue;
-    border-radius: 10px;
-
-}
 
 
 @media (max-width: 400px) {

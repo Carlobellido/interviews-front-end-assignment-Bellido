@@ -1,12 +1,12 @@
 import React from 'react'
 import NavBar from '../components/NavBar' 
-import ListRecipes from '../components/ListRecipes'
+import RecipeContainer from '../components/RecipeContainer'
 
 function RecipePage() {
   return (
     <div>
       <NavBar />
-      <ListRecipes />
+      <RecipeContainer />
     </div>
   )
 }
