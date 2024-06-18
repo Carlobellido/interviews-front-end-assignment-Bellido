@@ -1,11 +1,11 @@
-img {
+/* img {
     width: 50px;
     height: 50px;
     border-radius: 10px;
 
 
 
-}
+} */
 
 .recipe {
     display: inline-flex;
@@ -17,23 +17,56 @@ img {
     border-radius: 10px;
     width: 340px;
     /* Set a fixed width */
-    height: 300px;
+    height: 320px;
     /* Set a fixed height */
     box-sizing: border-box;
+    
+    
 
 
+}
+
+.preparazione{
+    padding: 3px;
+    text-align: left
 }
 
 .container__text {
     padding: 30px 30px 30px;
     color: beige;
     flex: 1;
+    ;
 }
 
 h1 {
     color: #fff;
     font-weight: 700;
 }
+
+.load{
+   
+      border: 4px solid  #FFFFFF;
+      color: #FFFFFF;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: inline-block;
+      text-align: center;
+      
+    }
+    
+    .load:hover,
+    .load:active {
+      background-color: initial;
+      background-position: 0 0;
+      color: #FF4742;
+    }
+    
+    .load:active {
+      opacity: .5;
+    }
+
+
 
 
 

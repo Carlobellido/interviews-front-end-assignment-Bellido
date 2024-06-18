@@ -22,8 +22,9 @@ export default function NavBar() {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
-        <p className="num-results">
-          Found <strong>x</strong> results
+        <p className="textMarquee">
+          <marquee behavior="" direction="">
+         <i><strong>Where you can find the best recipes for your meals!</strong></i></marquee>
         </p>
       </nav>
       </>

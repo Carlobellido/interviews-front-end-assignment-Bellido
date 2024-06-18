@@ -50,7 +50,7 @@
   transform: translateY(-2px);
 }
 
-.num-results {
+.textMarquee {
   justify-self: end;
   font-size: 1.8rem;
 }
