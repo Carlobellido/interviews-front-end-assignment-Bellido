@@ -57,6 +57,6 @@ This command starts a JSON server on port 3500 and watches the `db.json` file in
 
 >Due to my busy work schedule, I wasn't able to dedicate as much time as I would have liked this week. I try to done my best with the  available time and my knowledge
 
-## Contact me :sunglasses:	:+1:
+## Contact me :
 
 [linkedIn](https://www.linkedin.com/in/carlo-bellido-84603a148/)
