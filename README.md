@@ -100,4 +100,8 @@ comments.
 
 ## How to run
 
+![51hSfE8M+sL _AC_UF1000,1000_QL80_](https://github.com/Carlobellido/interviews-front-end-assignment-Bellido/assets/128391412/06a18d7a-c1f4-4b19-a901-d73ad14f31ec)
+
+
+
 ...
